@@ -1,0 +1,88 @@
+
+        body{
+            background-color: mediumturquoise;
+            font-family: Arial, sans-serif;
+            margin:0;
+            padding:0;
+            color: black;
+        }
+        nav{
+            background-color: coral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style-type:none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: aliceblue;
+            color: darkred;
+        }
+        .hero-image{
+            background-image: url("https://cdn.pixabay.com/photo/2016/11/08/05/29/surgery-1807541_960_720.jpg");
+            background-size:cover ;
+            background-position:center ;
+            height: 570px;
+            border-radius: 15px;
+            margin: 20px;
+
+
+        }
+         .about-us{
+            background-color: khaki;
+            height: 60px;
+
+        }
+        .about{
+            background-color: chocolate;
+            height: 60px;
+        }
+        .section{
+            background-color: aliceblue;
+            height: 60px;
+        }
+        #one{
+             background-color:yellowgreen;
+            height: 60px;
+        }
+        #two{
+             background-color: thistle;
+            height: 60px;
+        }
+        .image-one img{
+            height:40vh;
+            width: 250px;
+        }
+        .image-two img{
+            height: 40vh;
+            width: 250px;
+        }
+        .image-three img{
+            height: 40vh;
+            width: 250px;
+        }
+        .image-four img{
+            height: 40vh;
+            width: 250px;
+
+        }
+
